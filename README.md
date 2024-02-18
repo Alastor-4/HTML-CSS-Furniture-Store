@@ -1,6 +1,6 @@
-# E-commerce Landing Page
+# E-commerce Furniture Store Landing Page
 
-This is a project for a course, created for practice, of a simple Landing Page using HTML and CSS with an E-commerce theme.
+This is a project for a course, created for practice, of a simple Landing Page using HTML and CSS with an E-commerce Furniture Store theme.
 
 ## Description
 
