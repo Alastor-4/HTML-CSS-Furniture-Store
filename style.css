@@ -275,6 +275,10 @@ img{
     border: none;
 }
 
+.blog-entry p{
+    margin-bottom: 1rem;
+}
+
 .meta-entry{
     display: flex;
     justify-content: space-between;
@@ -288,4 +292,13 @@ img{
 
 .meta-entry span {
     color: #037bc0;
+}
+
+aside ul {
+    margin-left: 4rem;
+}
+
+.entry-blog-content {
+    width: 60rem;
+    margin: 0 auto;
 }
