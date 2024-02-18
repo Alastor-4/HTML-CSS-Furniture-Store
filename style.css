@@ -95,7 +95,7 @@ img{
 }
 
 .hero{
-    background-image: url(../ecommerce/img/main.jpg);
+    background-image: url(../img/main.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -135,7 +135,7 @@ img{
 .about-us {
     margin-top: 3rem;
     padding: 10rem 0;
-    background-image: linear-gradient(to right, transparent 50%, #037bc0 50%), url("../ecommerce/img/about_us.jpg");
+    background-image: linear-gradient(to right, transparent 50%, #037bc0 50%), url("../img/about_us.jpg");
     background-position: left center;
     background-repeat: no-repeat;
     background-size: 100%, 100rem;
