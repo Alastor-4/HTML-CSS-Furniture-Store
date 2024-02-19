@@ -1,4 +1,10 @@
-# E-commerce Furniture Store Landing Page
+
+<div align="center">
+  <img src="tools/HTML5.png" alt="HTML5" width="140" style="margin: 20px;">
+  <img src="tools/CSS3.png" alt="CSS3" width="100" style="margin: 20px;">
+</div>
+
+# Furniture Store Landing Page
 
 This is a project for a course, created for practice, of a simple Landing Page using HTML and CSS with an E-commerce Furniture Store theme.
 
@@ -21,7 +27,37 @@ This basic Landing Page was created as an exercise to showcase web design and la
 
 ## Screenshots
 
-Below are some screenshots of the Landing Page:
+Below are some screenshots of the Furniture Store Landing Page:
+
+### Home Page
+
+![Furniture Store](screenshots/FurnitureStore.jpg)
+
+     This section showcases the elegant and modern design of the home page, featuring attractive furniture and layout.
+
+### Categories and About us
+
+![Sections](screenshots/Sections.jpg)
+
+     Navigate through different sections like Categories and About us.
+
+### Products
+
+![Products](screenshots/Products.jpg)
+
+     Explore a curated selection of premium furniture items on the products page, with detailed product descriptions and pricing.
+
+### Galery
+
+![Galery](screenshots/Galery.jpg)
+
+     The gallery page presents a collection of stunning furniture images, highlighting the range of products available.
+
+### Get in touch
+
+![Get in touch](screenshots/Get_in_touch.jpg)
+
+     Reach out to us easily using the "Get in Touch" page, where you can find contact information and a simple form to get in contact with us.
 
 ## Author
 
