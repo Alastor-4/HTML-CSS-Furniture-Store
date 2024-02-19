@@ -4,6 +4,9 @@
   <img src="tools/CSS3.png" alt="CSS3" width="100" style="margin: 20px;">
 </div>
 
+# Disclaimer
+This project is part of a course by the incredible teacher --> Juan Pablo De la Torre Valdez (<https://github.com/codigoconjuan>), you can also visit his page in (<https://codigoconjuan.com/>)
+
 # Furniture Store Landing Page
 
 This is a project for a course, created for practice, of a simple Landing Page using HTML and CSS with an E-commerce Furniture Store theme.
