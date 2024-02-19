@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Furniture Store - Get in touch</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="site-name"><span>Furniture</span> Store</h1>
+    </header>
+
+    <div class="container container-main-nav">
+        <nav class="main-nav">
+            <a class="link" href="index.html">Home</a>
+            <a class="link" href="about_us.html">About us</a>
+            <a class="link" href="store.html">Store</a>
+            <a class="link" href="blog.html">Blog</a>
+            <a class="link" href="galery.html">Galery</a>
+            <a class="link" href="get_in_touch.html">Get in touch</a>
+        </nav>
+    </div>
+
+    <main class="main-content container">
+        <h2 class="text-center">Get in touch</h2>
+
+        <form class="form">
+            <fieldset>
+                <legend>Your data</legend>
+
+                <div class="field">
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" placeholder="Your name" required />
+                </div>
+
+                <div class="field">
+                    <label for="subject">Subject:</label>
+                    <input id="subject" type="text" placeholder="Your subject" required />
+                </div>
+
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" placeholder="Your email" required />
+                </div>
+
+                <div class="field">
+                    <label for="tel">Phone number:</label>
+                    <input id="tel" type="tel" placeholder="Your phone number" required />
+                </div>
+
+                <div class="field">
+                    <label for="message">Message:</label>
+                    <textarea id="message" cols="10" rows="5"></textarea>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Country</legend>
+
+                <div class="field">
+                    <label for="country">Country:</label>
+                    <select id="country">
+                        <option value="" disabled>--Select one--</option>
+                        <option value="UK" selected>United Kingdom</option>
+                        <option value="US">United States of America</option>
+                        <option value="SP">Spain</option>
+                        <option value="GE">Germany</option>
+                        <option value="IT">Italy</option>
+                    </select>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Extra info</legend>
+
+                <div class="field">
+                    <label for="client">Client</label>
+                    <input id="client" value="client" type="radio" name="type">
+                </div>
+
+                <div class="field">
+                    <label for="supplier">Supplier</label>
+                    <input id="supplier" value="supplier" type="radio" name="type">
+                </div>
+
+                <div class="field">
+                    <label for="categories">Interest category</label>
+                    <input name="categories" list="categories">
+                    <datalist id="categories">
+                        <option value="Kitchen">
+                        <option value="Office">
+                        <option value="Bedroom">
+                        <option value="Outdoor">
+                        <option value="TV">
+                    </datalist>
+                </div>
+
+            </fieldset>
+
+            <input class="btn" type="submit" value="Send form">
+        </form>
+    </main>
+
+    <footer class="site-footer container">
+        <div class="grid-footer container">
+            <div>
+                <h3>Categories</h3>
+                <nav class="footer-menu">
+                    <a href="#">Kitchen</a>
+                    <a href="#">Office</a>
+                    <a href="#">Garden</a>
+                    <a href="#">Garage</a>
+                    <a href="#">Bedrooms</a>
+                </nav>
+            </div>
+            <div>
+                <h3>About us</h3>
+                <nav class="footer-menu">
+                    <a href="#">Our Story</a>
+                    <a href="#">Mission</a>
+                    <a href="#">Privacity</a>
+                    <a href="#">Politicies</a>
+                    <a href="#">Terms of Service</a>
+                </nav>
+            </div>
+            <div>
+                <h3>Support</h3>
+                <nav class="footer-menu">
+                    <a href="#">FAQ</a>
+                    <a href="#">Help online</a>
+                    <a href="#">Confidence and Security</a>
+                </nav>
+            </div>
+        </div>
+
+        <p class="copyright">All Rights, FurnitureStore</p>
+    </footer>
+</body>
+
+</html>
